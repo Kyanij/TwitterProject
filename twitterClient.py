@@ -19,6 +19,12 @@ def buildTestSet(search_keyword):
         for status in tweets_fetched:
             # return {"text": status.text, "label": None}
             print({"text":status.text})
+            testdata = open("data.csv", "a")
+            testdata.write(status.text)
+
+        if (testdata):
+            print("Succesfully file created")
+
 
     except:
         print("Unfortunately, something went wrong..")
