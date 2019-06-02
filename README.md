@@ -1,7 +1,6 @@
-# TwitterProject
+# Twitter Sentiment Analysis
 
-This is a final project on Twitter Sentiment Analysis
-
+<b>Final Year Project </b>
 For all modules to be installed     
 <ul><li>pip3 install -r requirements.txt</li></ul>
 
